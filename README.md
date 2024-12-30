@@ -16,13 +16,13 @@ AWS services, including ECS.
  Spin up an EC2 instance within the subnet
 
 # Now that the infrastructure is in place...
-6.clone this repo into the instance
+6. clone this repo into the instance
 7. Enter the following commands in the terminal:
 $ cd inspiring_pics_container
 $ docker build -t inspiring_pics_container .
 $ docker run -d -p 80:80 inspiring_pics_container
 
-# The serveris running, visit the site
+# The server is running, visit the site
 8. Obtain the EC2 public IPv4 IP address
 9. Enter the IPv4 IP address after http:// in the browser
 ex: http://18.246.149.207
